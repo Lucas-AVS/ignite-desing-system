@@ -8,6 +8,13 @@ export default {
     src: 'https://github.com/Lucas-AVS.png',
     alt: 'Lucas de Alencar',
   },
+  argTypes: {
+    src: {
+      control: {
+        type: 'text',
+      },
+    },
+  },
 } as Meta<AvatarProps>
 
 export const Primary: StoryObj<AvatarProps> = {}
